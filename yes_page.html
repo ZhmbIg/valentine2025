@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knew you would say yes!</title>
     <link rel="stylesheet" href="./yes_style.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .letter {
+            display: block;
+            background-color: #fff3f3;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 1.2em;
+            color: #d32f2f;
+            max-width: 500px;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1 class="header_text">Так и знал, что ты скажешь да! Люблю тебя, солнышко!!</h1>
         <div class="gif_container">
             <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo3c3l5ODh3ZGN6NHhhaDE2Mjg1ZjkwOXczdDFxbWM3dTBtaW9zaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9XY4f3FgFTT4QlaYqa/giphy.gif">
+        </div>
+        <div class="letter" id="letter">
+            <p>Арина, ты – самый дорогой человек в моей жизни. Я благодарен за каждый момент, проведенный с тобой. Ты делаешь мой мир ярче, а сердце – счастливее.Я счастлив, что рядом со мной в любой момент - когда мне грутсно, когда мне весело, всегда-всегда, огромное тебе за это спасибо ты - лучшая!!.
+                 С Днем святого Валентина, моя любовь! ❤️</p>
         </div>
     </div>
 </body>
